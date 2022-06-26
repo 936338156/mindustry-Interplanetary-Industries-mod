@@ -1,0 +1,26 @@
+{
+    type:"GenericCrafter",/*标签*/
+    name:"[#bundles]",/*方块名称*/
+    description:"[#bundles]",/*描述*/
+    details:"[#bundles]",/*附加描述*/
+    health:200,/*方块血量*/
+    size:2,/*方块大小*/
+    hasliems:true,/*方块拥有物品*/
+    hasLiquids:false,/*方块拥有液体*/
+    hasPower:false,/*方块拥有电力*/
+    itemCapacity:10,/*物品容量*/
+    LiquidCapacity:0,/*液体容量*/
+    buildCostMultiplier:3,/*方块建造时间*/
+    solid:true,/*方块是否阻拦陆军单位*/
+    category:"crafting",/*建造栏分类*/
+    research:"graphite-press",/*科技树解锁前置*/
+    craftTime:90,/*生产时间*/
+    consumes:{
+        items:{items:["graphite/1","lead/1"]}
+    },/*需要消耗什么才能工作*/
+    outputItem:"石墨铅芯/3",/*输出物品*/
+    requirements:[
+        "copper/50",
+        "titanium/30",
+    ],/*建造成本*/
+}

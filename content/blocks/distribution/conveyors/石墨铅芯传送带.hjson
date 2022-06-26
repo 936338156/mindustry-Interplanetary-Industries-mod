@@ -1,0 +1,21 @@
+{
+    type:"conveyor",/*标签*/
+    name:"[#bundles]",/*名称*/
+    description:"[#bundles]",/*描述*/
+    details:"[#bundles]",/*附加描述*/
+    health:100,/*方块血量*/
+    size:1,/*方块大小*/
+    alwaysReplace:true,/*方块是否可在所有情况下被替换*/
+    buildCostMultiplier:0.04,/*方块建造时间*/
+    solid:false,/*方块是否阻拦陆军单位*/
+    speed:0.30,/*传送带速度*/
+    displayedSpeed:30,/*游戏界面里所显示的最大速度*/
+    category:"distribution",/*建造栏分类*/
+    research:"plastanium-conveyor",/*科技树解锁前置*/
+    requirements:[
+        "copper/1",
+        "lead/1",
+        "titanium/1",
+        "石墨铅芯/1",
+    ],/*建造材料*/
+}

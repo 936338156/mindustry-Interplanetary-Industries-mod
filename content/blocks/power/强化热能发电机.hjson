@@ -1,0 +1,21 @@
+{
+    type:"thermalGenerator",/*标签*/
+    name:"[#bundles]",/*方块名称*/
+    description:"[#bundles]",/*描述*/
+    details:"[#bundles]",/*附加描述*/
+    health:320,/*方块血量*/
+    size:2,/*方块大小*/
+    hasPower:true,/*方块拥有电力*/
+    buildCostMultiplier:1,/*方块建造时间*/
+    category:"power",/*建造栏分类*/
+    research:"科技",/*科技树解锁前置*/
+    floating:true,/*方块是否可以建造在液体表面上*/
+    powerProduction:3.6,/*发电量*/
+    requirements:[
+        "copper/60",
+        "graphite/55",
+        "lead/75",
+        "silicon/55",
+        "metaglass/60",
+    ],/*建造成本*/
+}

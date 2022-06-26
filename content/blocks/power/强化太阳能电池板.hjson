@@ -1,0 +1,17 @@
+{
+    type:"SolarGenerator",/*标签*/
+    name:"[#bundles]",/*方块名称*/
+    description:"[#bundles]",/*描述*/
+    details:"[#bundles]",/*附加描述*/
+    health:80,/*方块血量*/
+    size:1,/*方块大小*/
+    hasPower:true,/*方块拥有电力*/
+    buildCostMultiplier:1,/*方块建造时间*/
+    category:"power",/*建造栏分类*/
+    research:"solar-panel",/*科技树解锁前置*/
+    powerProduction:0.3,/*发电量*/
+    requirements:[
+        "metaglass/15",
+        "silicon/25",
+    ],/*建造成本*/
+    }

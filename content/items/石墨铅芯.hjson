@@ -1,0 +1,15 @@
+{
+    /*石墨铅芯*/
+    type:"item",/*类型*/
+    name:"[#bundles]",/*物品名称*/
+    description:"[#bundles]",/*描述*/
+    details:"[#bundles]",/*附加描述*/
+    alwaysUnlocked:false,/*科技树始终解锁*/
+    lowPriority:false,/*采集优先级低*/
+    cost:1.5,/*挖掘时间*/
+    hardness:0,/*硬度*/
+    explosiveness:0,/*爆炸性*/
+    flammability:0,/*易燃性*/
+    radioactivity:0,/*放射性*/
+    charge:0,/*放电性*/
+}

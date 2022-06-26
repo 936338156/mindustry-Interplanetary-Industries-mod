@@ -1,0 +1,23 @@
+{
+    type:"Battery",/*标签*/
+    name:"[#bundles]",/*方块名称*/
+    description:"[#bundles]",/*描述*/
+    details:"[#bundles]",/*附加描述*/
+    health:720,/*方块血量*/
+    size:3,/*方块大小*/
+    hasliems:false,/*方块拥有物品*/
+    hasLiquids:false,/*方块拥有液体*/
+    hasPower:true,/*方块拥有电力*/
+    buildCostMultiplier:6,/*方块建造时间*/
+    baseExplosiveness:5,/*击毁后爆炸威力*/
+    category:"power",/*建造栏分类*/
+    research:"battery-large",/*科技树解锁前置*/
+    consumes:{
+        powerBuffered:500000,/*电力容量*/
+    },/*需要消耗什么才能工作，这玩意还可以用来存电就离谱*/
+    requirements:[
+        "titanium/100"
+        "lead/250",
+        "graphite/150"
+    ],/*建造材料*/
+}

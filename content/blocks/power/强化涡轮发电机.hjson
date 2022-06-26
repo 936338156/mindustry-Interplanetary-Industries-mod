@@ -1,0 +1,26 @@
+{
+    type:"BurnerGenerator",/*标签*/
+    name:"[#bundles]",/*方块名称*/
+    description:"[#bundles]",/*描述*/
+    details:"[#bundles]",/*附加描述*/
+    health:320,/*方块血量*/
+    size:2,/*方块大小*/
+    hasliems:true,/*方块拥有物品*/
+    hasLiquids:true,/*方块拥有液体*/
+    hasPower:true,/*方块拥有电力*/
+    buildCostMultiplier:1,/*方块建造时间*/
+    baseExplosiveness:0,/*击毁后爆炸威力*/
+    category:"power",/*建造栏分类*/
+    research:"steam-generator",/*科技树解锁前置*/
+    powerProduction:11,/*发电量*/
+    itemDuration:90,/*单个物品燃烧时间*/
+    consumes:{
+        liquid:{liquid:"water",amount:"0.1",booster:"false",optional:"false"}
+    },/*需要消耗什么才能工作,booster=加速；optional=可选项*/
+    requirements:[
+        "copper/55",
+        "graphite/40",
+        "lead/60",
+        "silicon/45",
+    ],/*建造成本*/
+}

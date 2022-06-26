@@ -1,0 +1,22 @@
+{
+    type:"BurnerGenerator",/*标签*/
+    name:"[#bundles]",/*方块名称*/
+    description:"[#bundles]",/*描述*/
+    details:"[#bundles]",/*附加描述*/
+    health:400,/*方块血量*/
+    size:5,/*方块大小*/
+    hasliems:true,/*方块拥有物品*/
+    hasLiquids:false,/*方块拥有液体*/
+    hasPower:true,/*方块拥有电力*/
+    buildCostMultiplier:1,/*方块建造时间*/
+    baseExplosiveness:0,/*击毁后爆炸威力*/
+    category:"power",/*建造栏分类*/
+    research:"强化火力发电机",/*科技树解锁前置*/
+    powerProduction:50,/*发电量*/
+    itemDuration:6,/*单个物品燃烧时间*/
+    requirements:[
+        "copper/200",
+        "lead/200",
+        "silicon/50",
+    ],/*建造成本*/
+}

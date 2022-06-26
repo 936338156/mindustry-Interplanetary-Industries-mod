@@ -1,0 +1,9 @@
+{
+    name:"Interplanetary-Industries",
+    displayName:"Interplanetary Industries",
+    description:"至少135的垃圾代码全部重写完毕了",
+    minGameVersion:"136",
+    author:"羊叫兽OwO",
+    version:"0.18.0 Alpha",
+    hideBrowser:false,
+}

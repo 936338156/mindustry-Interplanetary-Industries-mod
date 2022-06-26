@@ -1,0 +1,27 @@
+{
+	type:"Drill",/*标签*/
+    name:"[#bundles]",/*方块名称*/
+    description:"[#bundles]",/*描述*/
+    details:"[#bundles]",/*附加描述*/
+    health:640,/*方块血量*/
+    size:4,/*方块大小*/
+    hasliems:true,/*方块拥有物品*/
+    hasLiquids:true,/*方块拥有液体*/
+    hasPower:false,/*方块拥有电力*/
+    itemCapacity:40,/*物品容量*/
+    LiquidCapacity:10,/*液体容量*/
+    buildCostMultiplier:4,/*方块建造时间*/
+    solid:true,/*方块是否阻拦陆军单位*/
+    category:"production",/*建造栏分类*/
+    research:"mini-mechanical-drill",/*科技树解锁前置*/
+    drawMineItem:true,/*是否在中心绘制所采矿物的颜色*/
+    warmupSpeed:2,/*钻头完全启动的速度*/
+    drillTime:600,/*钻探时间*/
+    tier:2,/*钻探级别*/
+    consumes:{
+        liquid:{liquid:"water",amount:"0.2",booster:"true",optional:"true"}
+    },/*需要消耗什么才能工作,booster=加速；optional=可选项*/
+    requirements:[
+        "copper/48",
+    ],/*建造成本*/
+}
