@@ -9,7 +9,7 @@
         - 按下win+R呼出运行输入cmd并回车
         - 接着在cmd里键入java并回车
         - 如果没有返回'java'不是内部或外部命令,也不是可运行的程序或批处理文件
-        - 而是返回![JAVA](https://github.com/936338156/mindustry-Interplanetary_Industries-mod/blob/main/Z0-README/图片/java.PNG)
+        - 而是返回![JAVA](https://github.com/936338156/mindustry-Interplanetary-Industries-mod/blob/main/Z0-README/图片/java.PNG)
         - 便证明你的JAVA_HOME变量设置完成
 - *如果以上前置已满足你便可以直接双击package.bat获得一个Interplanetary_Industries.jar*
 - 然后就没有然后了你自己去游戏里导入mod即可
